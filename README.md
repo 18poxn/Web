@@ -20,3 +20,9 @@ c. build project และ run
  	npm i
 	npm run start
 
+ **หมายเหตุ ใช้ googlechome ได้
+ ![image](https://github.com/user-attachments/assets/1fb300c2-2b5b-4464-a3cc-3acd1d7108f8)
+แต่ใช้ Microsoft edge เกิดการ error
+![image](https://github.com/user-attachments/assets/045b1278-06c7-4e38-888f-df91ea72e3c0)
+
+
