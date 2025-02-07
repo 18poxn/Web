@@ -16,6 +16,7 @@ const db = mysql.createConnection({
 
 
 c. build project และ run
-	npm i
+	cd project-main2
+ 	npm i
 	npm run start
 
