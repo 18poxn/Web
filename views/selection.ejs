@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Selection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/selection.css">
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="home mx-5">
+            <img src="/img/home.png" style="width: 55px; height: 50px;">
+        </a>
+        <a href="/" class="logo mx-5 ">
+            <span class="chats">Chats</span>
+            <span class="share">Share</span> 
+        </a>
+        <a href="account">
+            <img src="/img/account.png" class="account mx-5" style="width: 50px; height: 50px;">
+        </a>
+    </header>
+    <main class="main-content">
+        <div class="text-box mx-auto">
+            <h3 class="text">กรุณาเลือกก่อนเริ่มใช้งาน...</h3>
+        </div>
+        <div class="btn-box d-flex justify-content-around">
+            <button class="btn-1 mx-5" onclick="setRole(1)">ผู้ที่ต้องการระบาย</button>
+            <button class="btn-2 mx-5" onclick="setRole(2)">ผู้ที่ต้องการรับฟัง</button>
+        </div>
+    </main>
+
+    <script src="/js/selection.js"></script>
+</body>
+</html>

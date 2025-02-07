@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: 'Mitr', sans-serif;
+    background-color: #F0F8FF;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0 0 0;
+    background-color: #F0F8FF;
+    align-items: center;
+    justify-content: space-between;
+}   
+
+.logo {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 800;
+    font-size: 33px;
+    margin-top: 23px;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.chats {
+    color: #474C59;
+    display: block;
+}
+
+.share {
+    color: #3498DB;
+    display: block;
+    margin-top: -20px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.text-box {
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 30px;
+    color: black;
+    font-weight: 450;
+    text-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.btn-box {
+    margin-top: 50px;
+}
+
+.btn-1, .btn-2 {
+    height: 60px;
+    width: 200px;
+    background-color: #8FD8F0;
+    border: none;
+    border-radius: 30px;
+    color: #2e3139;
+    font-size: 18px;
+    padding: 10px 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease;
+}
+
+.btn-1:hover, .btn-2:hover {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    border: 2px solid #8FD8F0;
+}

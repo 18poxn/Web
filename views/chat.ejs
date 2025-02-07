@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/chat.css">
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="home mx-5">
+            <img src="/img/home.png" style="width: 55px; height: 50px;">
+        </a>
+        <a href="/" class="logo mx-5 ">
+            <span class="chats">Chats</span>
+            <span class="share">Share</span> 
+        </a>
+        <a href="account">
+            <img src="/img/account.png" class="account mx-5" style="width: 50px; height: 50px;">
+        </a>
+    </header>
+
+    <div class="container">
+        <div class="chat-header">
+            <div id="role-display" class="role-display"></div>
+            <button class="end-chat" onclick="endChat()">จบการสนทนา</button>
+        </div>
+        <div class="chat-box" id="chat-box">
+        </div>
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="พิมพ์ข้อความ...">
+            <button onclick="sendMessage()">Send</button>
+    </div>
+    <script src="/js/chat.js"></script>
+</body>
+</html>

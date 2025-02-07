@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 20px;
+    background-color: #F0F8FF;
+    display: flex;
+}
+
+.logo h2 {
+    font-family: "Baloo 2";
+    font-weight: bold;
+    flex-direction: column;
+
+}
+
+.chats {
+    color: #474C59;
+    display: block;
+}
+
+.share {
+    color: #3498DB;
+    display: block;
+}
+
+.login {
+    background-color: #8FD8F0;
+    font-family: 'Mitr', sans-serif;
+    border-radius: 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 20px;
+    margin-top: 70px;
+    max-width: 400px;
+    width: 400px;
+}
+
+.signup {
+    background-color: #8FD8F0;
+    font-family: 'Mitr', sans-serif;
+    border-radius: 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 400px;
+    width: 400px;
+}
+
+.login h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #333845;
+    text-shadow: 2px 3px 4px rgb(0, 0, 0, 0.2);
+    font-weight: 500;
+}
+.signup h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #333845;
+    text-shadow: 2px 3px 4px rgb(0, 0, 0, 0.2);
+    font-weight: 500;
+}
+
+form .login_form {
+    position: relative;
+    margin: 20px 0;
+    border-bottom: 2px;
+}
+
+.login_form input {
+    display: block;
+    width: 90%;
+    margin: 30px auto;
+    padding: 0 10px ;
+    height: 45px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: none;
+    font-family: "Mitr";
+}
+
+.login_form label {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 14px;
+    pointer-events: none;
+    transition: 0.5s ;
+}
+
+.login_form input:focus + label,
+.login_form input:not(:placeholder-shown) + label {
+    top: -10px;
+    color: #333845;
+    font-size: 12px;
+}
+
+.signup_link {
+    display: block;
+    text-align: right;
+    margin: 0 25px 0 0px;
+    margin-top: -15px;
+    font-size: 10px;
+    color: #333845;
+}
+
+.signup_link a {
+    color: #333845;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.signup_link a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] {
+    font-family: "Mitr";
+    display: block;
+    margin: 30px auto 30px auto;
+    width: 50%;
+    padding: 8px;
+    background-color: #ffffff;
+    color: #333845;
+    border: none;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button[type="submit"]:hover {
+    color: #333845;
+    background-color: #f0f0f0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/account.css">
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="home mx-5">
+            <img src="/img/home.png" style="width: 55px; height: 50px;">
+        </a>
+        <a href="/" class="logo mx-5 ">
+            <span class="chats">Chats</span>
+            <span class="share">Share</span> 
+        </a>
+        <a href="account">
+            <img src="/img/account.png" class="account mx-5" style="width: 50px; height: 50px;">
+        </a>
+    </header>
+
+    <div class="welcome-user">
+        <h2></h2>
+    </div>
+
+    <div class="user-form">
+        <h3>ข้อมูลส่วนตัว</h3>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="username">ชื่อผู้ใช้งาน</label>
+                <input type="text" id="username">
+            </div>
+            <!-- <div class="form-group">
+                <label>เพศ</label>
+                <div class="gender-group">
+                    <label><input type="radio" name="gender">ผู้ชาย</label>
+                    <label><input type="radio" name="gender">ผู้หญิง</label>
+                    <label><input type="radio" name="gender">อื่นๆ</label>
+                </div>
+            </div> -->
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="email">อีเมล</label>
+                <input type="email" id="email">
+            </div>
+            <!-- <div class="form-group">
+                <label for="password">รหัสผ่านปัจจุบัน</label>
+                <input type="password" id="password">
+            </div> -->
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label id="passwordnew" for="new-password">รหัสผ่านใหม่</label>
+                <input type="password" id="new-password">
+            </div>
+            <div class="form-group">
+                <label id="passwordnewcon" for="confirm-password">ยืนยันรหัสผ่านใหม่</label>
+                <input type="password" id="confirm-password">
+            </div>
+        </div>
+        <div class="form-actions">
+            <button class="btn btn-primary">Save changes</button>
+            <button class="btn btn-danger">Log out</button>
+        </div>
+    </div>
+
+    <script src="/js/account.js"></script>
+</body>
+</html>
